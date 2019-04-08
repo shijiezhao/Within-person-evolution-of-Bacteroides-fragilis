@@ -1,0 +1,49 @@
+LOCUS       NODE_292                 572 bp    DNA     linear       04-AUG-2017
+DEFINITION  Bacteroides fragilis strain strain.
+ACCESSION   
+VERSION
+KEYWORDS    .
+SOURCE      Bacteroides fragilis
+  ORGANISM  Bacteroides fragilis
+            Unclassified.
+COMMENT     Annotated using prokka 1.12 from
+            https://github.com/tseemann/prokka.
+FEATURES             Location/Qualifiers
+     source          1..572
+                     /organism="Bacteroides fragilis"
+                     /mol_type="genomic DNA"
+                     /strain="strain"
+     CDS             124..222
+                     /gene="pyrI_2"
+                     /locus_tag="MR1_11019"
+                     /old_locus_tag="L01_04586"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="protein motif:HAMAP:MF_00002"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Aspartate carbamoyltransferase regulatory chain"
+                     /translation="MLSRFHVIDKEKGTIKCHYCERKINKEDIIIR"
+     CDS             complement(367..564)
+                     /gene="gdhB_2"
+                     /locus_tag="MR1_10228"
+                     /old_locus_tag="L01_04587"
+                     /EC_number="1.4.1.2"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA sequence:UniProtKB:P94316"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="NAD-specific glutamate dehydrogenase"
+                     /translation="MTQNAQKLSWSSEEVDQKLQSIMENIHEQCVKYGKQEDGYVNYV
+                     KGANVAGFMKVAKAMMSQGIL"
+ORIGIN      
+        1 cttctctaca acctcataat ccgtgattat gaggttgtag agaagaagac ggttacttta
+       61 cccgacgagc tgattggctt ggtcaaatgt aacaatccga aatgtatcac caataatgag
+      121 ccgatgcttt cccgcttcca cgtgatcgac aaggagaagg gaaccattaa atgtcattat
+      181 tgcgaacgta agattaataa agaagacata atcattagat aattgaaaat taagaattga
+      241 aaattgaaaa ttgggacttc gtcggaaata agaaagggga atagcctctc aaagcctatc
+      301 cccctcgctt atatgatcat caatctctcc tctctaacta attttcaatt ctcaattttc
+      361 aattacctag agtattcctt gtgacatcat agccttagct accttcatga agccggctac
+      421 gttggcgcct ttcacgtagt ttacgtaacc atcctcttgc tttccgtatt ttacgcattg
+      481 ctcgtggatg ttttccatga tgctctgaag tttctggtct acttcctcgc tgctccagct
+      541 taacttctgt gcgttctgag tcatctcaag ac
+//

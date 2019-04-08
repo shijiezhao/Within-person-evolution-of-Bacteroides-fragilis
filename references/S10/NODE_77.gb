@@ -1,0 +1,53 @@
+LOCUS       NODE_77                  699 bp    DNA     linear       04-AUG-2017
+DEFINITION  Bacteroides fragilis strain strain.
+ACCESSION   
+VERSION
+KEYWORDS    .
+SOURCE      Bacteroides fragilis
+  ORGANISM  Bacteroides fragilis
+            Unclassified.
+COMMENT     Annotated using prokka 1.12 from
+            https://github.com/tseemann/prokka.
+FEATURES             Location/Qualifiers
+     source          1..699
+                     /organism="Bacteroides fragilis"
+                     /mol_type="genomic DNA"
+                     /strain="strain"
+     CDS             94..219
+                     /locus_tag="MR1_10861"
+                     /old_locus_tag="L10_04033"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MKEVDNIYFSDLKPQHIYQTSLMQYQHSNHPIDQTMNYTNQ"
+     assembly_gap    317..326
+                     /estimated_length=10
+                     /gap_type="within scaffold"
+                     /linkage_evidence="paired-ends"
+     CDS             complement(349..645)
+                     /gene="tagD_2"
+                     /locus_tag="MR3_07878"
+                     /old_locus_tag="L10_04034"
+                     /EC_number="2.7.7.39"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA sequence:UniProtKB:P27623"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Glycerol-3-phosphate cytidylyltransferase"
+                     /translation="MSYKQKVPIIPFEQRKEIVAAIKYVDKVVTQSSRDKIKAYDDLH
+                     FDIMFVGNDWKGTPFFDKIEEELRKRNVEISYFPYTEGVSSTILREKLNSIYGR"
+ORIGIN      
+        1 gccatgttcc ctgccaactt ttaatattca ggtttttctt aaaacgactt atagcttgat
+       61 aaaatttatg tcccaacaac tcatcataat tatatgaaag aggtagataa catctatttt
+      121 tccgacctaa aacctcaaca tatttatcaa acctccttaa tgcaatatca acattcaaat
+      181 catcccatcg atcaaacaat gaattataca aatcaataat tccatctgga tccttcaata
+      241 atcgaaattc atagggaaaa gattcagtat ttgagaattc caatagtaaa tcaaaaatag
+      301 cactggatcc agtggcnnnn nnnnnntgaa acagaaacaa tcttaaactt atcttccata
+      361 tatactattt aatttttcac gtaaaatagt agatgatact ccctctgtgt aaggaaaata
+      421 agagatttcc acgtttcttt tccttaattc ttcttcaatt ttatcaaaaa aaggagttcc
+      481 tttccagtca tttccaacaa acataatatc aaaatgtaaa tcatcgtagg ctttaatctt
+      541 atctctggaa ctttgtgtta ctactttgtc tacgtattta atagctgcaa caatttcctt
+      601 tctctgttca aatggtataa ttggtacttt ctgtttataa gacatcacta attcatcagt
+      661 actaacacca acaataagaa tatcacattc tgcctttgc
+//

@@ -1,0 +1,143 @@
+LOCUS       NODE_65                 3479 bp    DNA     linear       04-AUG-2017
+DEFINITION  Bacteroides fragilis strain strain.
+ACCESSION   
+VERSION
+KEYWORDS    .
+SOURCE      Bacteroides fragilis
+  ORGANISM  Bacteroides fragilis
+            Unclassified.
+COMMENT     Annotated using prokka 1.12 from
+            https://github.com/tseemann/prokka.
+FEATURES             Location/Qualifiers
+     source          1..3479
+                     /organism="Bacteroides fragilis"
+                     /mol_type="genomic DNA"
+                     /strain="strain"
+     CDS             542..1180
+                     /gene="rfaH_9"
+                     /locus_tag="CR_06071"
+                     /old_locus_tag="L11_04359"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="protein motif:HAMAP:MF_00951"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Transcription antitermination protein RfaH"
+                     /translation="MLRYSGVPKEYPDVNDMTTSASIESSMERSQSILSSSALNWYAL
+                     RITYGRELALQEYLNSEGIENFIPMHYEYTIKNERRVRKLVPAVHNLVFVRSSRSCID
+                     AIKESRSATLPIRYIMDREYHRPIIVPDSQMRNFMAVSANYDESLLYFEPSELNIRKG
+                     IRVRITGGLFEGVEGEFVRVRNDRRVVVTIEGVMAVATTFVHPSLVEPVTEK"
+     CDS             1192..1674
+                     /locus_tag="MR11_07273"
+                     /old_locus_tag="L11_04360"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MNYLESEISALYASAHELCYLGMDGRPIYSDQFTRLNRDVFSQA
+                     NALYDKHGDSDEEEARLCLSLLMGYNATLYNNGDKEERIQHILDRCWDVLEHLPASLL
+                     KVQLLVYCYGEVFDEELAREAQAIIDTWQDRELSEEEREVMERLKDVQENPYPWSEVE
+                     "
+     CDS             1711..2604
+                     /gene="rffH_6"
+                     /locus_tag="MR3_04611"
+                     /old_locus_tag="L11_04361"
+                     /EC_number="2.7.7.24"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA sequence:UniProtKB:P61887"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Glucose-1-phosphate thymidylyltransferase 2"
+                     /translation="MKGIVLAGGSGTRLYPITKGVSKQLLPIFDKPMIYYPISVLMLA
+                     GIREILIISTPYDLPGFQRLLGDGSDFGVRFEYAEQPSPDGLAQAFIIGEKFIGNDSV
+                     CLVLGDNIFYGQGFTPKLHEAVDAAERSEKATVFGYWVNDPERYGVVDFDKAGKVVSI
+                     EEKPTAPKSNYAVVGLYFYPNSVIDIVKGIKPSPRGELEITTVNQMYLKKGALQVQLL
+                     GRGFAWLDTGTHDSLSEASTFVEVIEKRQGLKIACLEGIALRQGWITIDKIRELAHPM
+                     MKNQYGQYLLKVIEELSKNEN"
+     CDS             2594..2998
+                     /gene="fdtA_3"
+                     /locus_tag="MR3_08018"
+                     /old_locus_tag="L11_04362"
+                     /EC_number="5.3.2.3"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA sequence:UniProtKB:Q6T1W8"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="TDP-4-oxo-6-deoxy-alpha-D-glucose-3,
+                     4-oxoisomerase"
+                     /translation="MKTESAQIIELPKILDKRGNLSIIEEFKNIPFKIERTYWIYDVP
+                     GGESRGGHAYRENEEFIVALSGSFDVVLDDGSNRKVFSLNRSYYGLYVPKGLWREMNN
+                     FSTNSLALVLSSTSYNPQDYIYDYKKFVNSKQ"
+     CDS             2995..3411
+                     /gene="fdtA_4"
+                     /locus_tag="MR3_07900"
+                     /old_locus_tag="L11_04363"
+                     /EC_number="5.3.2.3"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA sequence:UniProtKB:Q6T1W8"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="TDP-4-oxo-6-deoxy-alpha-D-glucose-3,
+                     4-oxoisomerase"
+                     /translation="MKNYTVYDCSVIGLPKIENRSGNITPVHGNLNIPFIIKRVFYSY
+                     DIPGGEARGAHAHKECHQFLIAASGSFEVVLDDGVNRRTILLNRPFYGLHIPPGIWAS
+                     EQGFSSGSVCLVLASHGYEEGDYLRDYQDFIEYKND"
+ORIGIN      
+        1 atgatttttt tatttaatca ataactaaat gttgttaata tgttgcaaag gtagaaagga
+       61 atctatcggt aggcaaataa aagtggaatt taagagggaa tgaacgctct tgataggcta
+      121 attatctgat atataatgtt gtattaatga aaaaagtgag tgtttcaata aacgttcgtt
+      181 taattgaacg caaagataga gggtattttt agaactacaa aatgtttaat aaaaaaaatg
+      241 tttttttgcc tttggatatt gttttaatat attaaaccat aggtgtttat gaattaataa
+      301 aaaacagttt attatctgtc tgattttgtt ttctgttctc ttctgattta tatacaaaaa
+      361 acatgtgttt ttaaacgaac gtctattgaa acactttttg ttttcaatgc cctcatttaa
+      421 aggctattat aataaataac tattttctgc ctctccttct gtgatagtgg agggtcatta
+      481 aataacatgg atgcactgaa tttttcatta aaatccgcat tacataactt gaccgggagg
+      541 tatgcttcgc tactccggtg tccccaaaga atatcctgac gtgaacgaca tgacaacatc
+      601 cgcatctatc gagtcttcga tggagcgctc tcaatctatc ctatcttctt ccgctttgaa
+      661 ctggtatgcc ttgcgtatca cttacgggcg tgaattggct ttgcaggagt acctcaattc
+      721 ggaggggatc gagaatttca tccccatgca ctacgaatat accattaaaa acgagcgtcg
+      781 ggttcgtaag cttgttcccg cagttcataa tctggttttt gtccgttcct cgcgtagttg
+      841 tatcgatgcc atcaaagaga gcaggagtgc cacgcttcct atccgttaca ttatggatcg
+      901 tgaatatcat cgtcccatca tcgttcctga ttcccaaatg cgtaatttca tggctgtctc
+      961 tgcgaattat gatgaatccc tgctttattt cgaaccttct gagttgaaca tccgcaaggg
+     1021 tatccgtgtg cgtatcaccg gggggctttt cgagggggtg gagggcgagt ttgtccgtgt
+     1081 ccgcaatgac cgtcgtgtcg tagtcaccat cgaaggtgtt atggctgtcg ccaccacttt
+     1141 tgtccatcct tcattggtcg aacctgtcac cgaaaaataa cataacaaga tatgaactat
+     1201 ttagaatcag aaatctccgc tctttatgct tctgctcatg aactttgcta tctgggcatg
+     1261 gacggtcggc cgatctacag tgatcaattc acccgtctga atcgtgatgt tttttctcag
+     1321 gctaatgctt tgtacgacaa gcatggtgat agtgatgaag aagaggcccg gttgtgtctg
+     1381 tcgctcctga tgggatataa tgcgactctc tataataacg gtgacaagga ggagcgtatc
+     1441 caacatattc tggatcgttg ctgggatgta ctggaacatc tgcctgcctc tctgctgaaa
+     1501 gtccaactgc tggtttattg ttacggagaa gttttcgacg aggaattggc ccgggaagct
+     1561 caggccatca tcgatacatg gcaggacaga gagttgtcgg aagaggagcg tgaggtgatg
+     1621 gaacgcctga aggatgtgca agagaatccg tatccttgga gtgaggtgga atgatttcga
+     1681 tctagtaatt taattttaat aagtatattg atgaaaggta ttgtcttggc cggtggttcg
+     1741 ggcactcgct tatatccgat caccaaagga gtcagtaagc agttgcttcc gatatttgat
+     1801 aagccgatga tctattatcc tatctctgta ctcatgttgg cagggattcg tgaaatattg
+     1861 attatttcca ctccatacga tttacccggc tttcaacgtt tgctgggtga cggttctgac
+     1921 tttggagtac gttttgagta cgccgaacaa ccttctcccg acggcttggc acaggcattt
+     1981 attattggtg agaaatttat aggcaatgat tctgtatgtc tggttcttgg cgataatatc
+     2041 ttttatgggc aaggctttac ccctaaatta catgaggcgg ttgatgcagc cgaacggtca
+     2101 gagaaagcca ctgtttttgg ctattgggtg aatgatcccg aacgttacgg agtagtggat
+     2161 tttgataaag caggtaaggt ggttagtatt gaagagaaac ctactgcccc taaatctaat
+     2221 tatgcggttg taggtttgta cttttatccg aatagtgtga tagatatagt taaggggata
+     2281 aaaccttctc ctcgaggaga actagaaatt acaacggtta atcaaatgta tttaaaaaag
+     2341 ggggccctgc aggttcagtt actgggacgt ggttttgcct ggctggatac aggtacacat
+     2401 gattctttgt cggaagcaag tacgtttgtt gaggtaatag agaaacgcca gggattgaaa
+     2461 atagcctgtt tagaagggat tgctttgagg caaggttgga ttactataga taagatacgt
+     2521 gagttagcac atcctatgat gaagaatcag tacgggcagt atttgcttaa agtaatagaa
+     2581 gaactttcta aaaatgaaaa ctgaatcagc tcaaatcata gagcttccta aaatcttgga
+     2641 taaacgaggt aacttatcca ttatcgaaga attcaagaat atccctttca aaatagaacg
+     2701 aacttactgg atttatgatg ttccaggagg agagtcacgt gggggacatg catatagaga
+     2761 aaatgaagaa tttattgtgg ctttatccgg aagctttgat gtggttttgg atgatggtag
+     2821 taatagaaaa gttttttctt taaatcgttc ctattatggg ctttatgtac ctaaaggatt
+     2881 atggcgtgaa atgaataatt tttctacgaa ttcattggct ttggttcttt cctctacttc
+     2941 atataatcct caagattata tatatgatta taaaaagttt gtcaattcga aacaatgaag
+     3001 aattacactg tttatgactg ttctgtaata ggactcccta aaatagagaa tcgctcagga
+     3061 aatataactc ctgttcatgg gaatttaaat atccctttta ttataaaaag agtgttttat
+     3121 tcttatgata tccccggagg tgaggcacgt ggggctcatg cccataagga gtgccatcaa
+     3181 tttctgatag cggctagtgg atcatttgag gtcgtactgg atgatggagt taatagacgt
+     3241 acgatattgt tgaatcgccc tttttacggt ttacatattc ctccgggtat ttgggcttct
+     3301 gaacagggat tttcttccgg ttcagtttgt ttagtattag cgtctcacgg atacgaagag
+     3361 ggtgattatt taagagatta tcaagatttt atagaataca aaaatgatta gaatacatcc
+     3421 atcatccgaa gttttatctc aacaaatagg gaatgatacc tatatttggc agtattgta
+//

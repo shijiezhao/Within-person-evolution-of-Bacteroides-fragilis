@@ -1,0 +1,91 @@
+LOCUS       NODE_63                 2372 bp    DNA     linear       04-AUG-2017
+DEFINITION  Bacteroides fragilis strain strain.
+ACCESSION   
+VERSION
+KEYWORDS    .
+SOURCE      Bacteroides fragilis
+  ORGANISM  Bacteroides fragilis
+            Unclassified.
+COMMENT     Annotated using prokka 1.12 from
+            https://github.com/tseemann/prokka.
+FEATURES             Location/Qualifiers
+     source          1..2372
+                     /organism="Bacteroides fragilis"
+                     /mol_type="genomic DNA"
+                     /strain="strain"
+     CDS             complement(140..1306)
+                     /gene="xerC_15"
+                     /locus_tag="MR1_02937"
+                     /old_locus_tag="L08_04462"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="protein motif:HAMAP:MF_01808"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Tyrosine recombinase XerC"
+                     /translation="MCSTKRRGASLNSIIPYTLPKLHTGKNWYIDFKAYDPLEQKMKR
+                     KKYMLDSIDKISVRKKRATELIANISRQLLSGWNPWADTSNSRQYTLFDDVVELYNKY
+                     LIKFHKSKVFKESTFADYKKRIRVLSEYNKKRFNPIIYIYQFDKTYASDFLDYILIDR
+                     DSSARTRNNYRTWLSSFGSWLLEKQYIDKNPVENIKSLSEDKKKRDALSANDLQKLRT
+                     YLEKNNPYFLLLCQFAYYTLIRPDELSNIQLSDIYIKDQKVFIPSSISKNRKDGMVGL
+                     NDILIKSMLELKIFNYSNDCYLFGKDFKPSKEKSTPRTYRTYFNKVRTLLKFPDSYQF
+                     YSLKDTGIRDLANSAGIVIARDQARHSDISTTNKYLKGEALPVHEETKHFEGLF"
+     CDS             complement(1659..1961)
+                     /locus_tag="MR1_09039"
+                     /old_locus_tag="L08_04463"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MANLLLIRDLCEINKIKIRELASRIGKDESTIQSMIRAGSTNTK
+                     TLEAIAEVFNVSPGIFFDNPSENNTGTNLNKEEEIAYLKKLLEEKERLIQVLLNKK"
+     CDS             2074..2322
+                     /locus_tag="MR1_09608"
+                     /old_locus_tag="L08_04464"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MAKKTLKRNQDGEKLRMYLLTLPLKDSSKMVVKLAEACKVPLHT
+                     VHNWRGGLCRIPELAKDKIEEVTGVKIFHSENLPPKSE"
+ORIGIN      
+        1 gagttttaca ccggtgccgt gaaacatata caggagacac aaaaggaagg ctgggaactt
+       61 aaaaaggcga tagactggag tgtttatacg ttggagtaga aaagcgaaag ggggaagcgg
+      121 gaaacacgtt tcccctgatt taaaaaagtc cttcaaaatg ttttgtctct tcatgtactg
+      181 gcaacgcttc tccttttaga tatttatttg tggtagaaat atccgaatgt cttgcttgat
+      241 cgcgtgcaat aacaatcccg gctgaatttg ccaaatcgcg aataccggta tcttttaggg
+      301 aataaaactg gtaggagtca gggaatttaa gtaacgtacg tactttattg aaataagtcc
+      361 tgtaagtgcg tggtgtcgat ttctcttttg agggtttgaa atctttcccg aataagtaac
+      421 aatcattgct ataattgaat attttaagtt cgagcataga ttttattaag atatcgttta
+      481 atcctaccat accgtctttg cggtttttag atatacttga agggataaat actttttgat
+      541 ccttaatata gatatcggat aattgaatat ttgacagctc atctggacga ataagggtat
+      601 aatatgcaaa ctggcaaagt aggagaaagt acggattatt tttttctaaa tatgttctaa
+      661 gcttctgtag atcattggcg gacaatgcgt cccgtttctt tttgtcttcc gacaatgatt
+      721 tgatattctc tacggggttt ttgtctatat actgtttttc taataaccag ctgccaaaag
+      781 atgataacca ggttcgataa ttattccttg tgcgagctga tgaatcacga tcaataagaa
+      841 tataatccaa gaaatcactt gcataagtct tatcaaactg ataaatatat attataggat
+      901 tgaaacgctt tttgttgtat tctgataaca ccctaattct ttttttatag tctgcaaagg
+      961 tactttcttt aaacactttg gacttatgga atttaattag atatttattg tataattcca
+     1021 caacatcatc gaacaatgta tattggcggg aatttgaagt atctgcccat ggattccaac
+     1081 cagataagag ttgccgactt atattagcaa ttaattccgt agccctcttt ttccggacac
+     1141 taattttatc tatgctatcc agcatatatt tttttcgttt cattttttgt tccaaaggat
+     1201 cataagcttt gaaatcaata taccaatttt tcccggtgtg aagtttgggc aaagtgtagg
+     1261 gtattatact atttaatgag gcaccccgtc ttttagttga acacattttt ttctacgttt
+     1321 ttgtaaacag aaacgtagta caattaaaca ttcatattaa ataaagtgtc cggtacttgt
+     1381 ccgacctata aacggaaaat agccgtaagt tattaactta cagctatttg accttgcacg
+     1441 ggaggagagg ctcgaactct aatgacattt tttgcttcct cctttattga atgtcaaata
+     1501 actatgtttc tggttaagca ttattattat aagttgactt gtccgaaata tgtccgcaga
+     1561 catgtaatat ttatctattt tttattgttg aatattatta tttctaaatc ataggtaaac
+     1621 attttagtat attgcggcat cgatatatag ttgaataact attttttgtt taataaaact
+     1681 tgtattagcc gttctttctc ttcgagaagt ttctttaaat aagcaatttc ttcttcttta
+     1741 ttaagattag tgcccgtatt attttccgaa ggattatcaa agaaaatacc gggagaaaca
+     1801 ttaaatacct ctgctatggc ttcaagagtt ttagtattag ttgaccctgc tcttatcata
+     1861 gactgaatag tactttcatc cttaccgatt cgggaagcta attccctaat tttgattttg
+     1921 tttatttcgc ataaatctct tataagtaat aaattagcca taatttgata tagtatttac
+     1981 aataattaac aggaattata tagcacatta tgctaaataa atctatattt gtgatataaa
+     2041 tatagaaata aataatagat ttaatgtgat gctatggcaa aaaaaacttt aaaaagaaat
+     2101 caagacggtg agaaactaag aatgtatctt ttgactttac cactgaaaga ttcttctaaa
+     2161 atggtggtaa aattggcgga agcatgtaag gttccactac ataccgttca taattggcgg
+     2221 ggtggattgt gtcgtattcc tgaacttgca aaggataaga tcgaggaagt aacaggtgta
+     2281 aaaatcttcc atagtgaaaa tcttcctcca aaaagtgaat aaatacccgg ggcggttttt
+     2341 gccgctccat ataataaccg ccggagtgtg ga
+//

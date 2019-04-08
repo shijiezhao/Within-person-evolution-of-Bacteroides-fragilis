@@ -1,0 +1,116 @@
+LOCUS       NODE_57                 2993 bp    DNA     linear       04-AUG-2017
+DEFINITION  Bacteroides fragilis strain strain.
+ACCESSION   
+VERSION
+KEYWORDS    .
+SOURCE      Bacteroides fragilis
+  ORGANISM  Bacteroides fragilis
+            Unclassified.
+COMMENT     Annotated using prokka 1.12 from
+            https://github.com/tseemann/prokka.
+FEATURES             Location/Qualifiers
+     source          1..2993
+                     /organism="Bacteroides fragilis"
+                     /mol_type="genomic DNA"
+                     /strain="strain"
+     CDS             63..425
+                     /locus_tag="MR1_08437"
+                     /old_locus_tag="L01_04394"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MNRIQELEAEIQRIKKEEADKKKALYQHFVGKYVHRAHTSYEKI
+                     IGIDRIDTDEFGDEVVFDSIHVYYDNRGDEYNNDASINLQGWGQAYAEELEKQLISPE
+                     TFNKALNDCIDLIRRRLA"
+     CDS             438..833
+                     /locus_tag="MR1_08119"
+                     /old_locus_tag="L01_04395"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MSELYIPVERPTRNPINGRFLKGIAPHNKGKTMKYHSLKTKRRS
+                     LKNLAKGRGSWHKTGAGLNRKSVVAIKDGKLCGVFPSIQDAGKATGVNPALISCICNK
+                     KPGRHKAGGFEWFFENDATWCDLILKNDG"
+     CDS             826..1932
+                     /gene="xerC_12"
+                     /locus_tag="MR1_03309"
+                     /old_locus_tag="L01_04396"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA sequence:UniProtKB:P0A8P6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Tyrosine recombinase XerC"
+                     /translation="MDNNRQHILTNYISYLYTTGRSYDSIGKHIKYVADFLESTEEVN
+                     RRGYLSYKRKNADVMARYPLMCSAICDLLSYLKIGYGRREKTVKPLEKLDSISEKNKK
+                     MLNDFIVWLTDNNDYSPHTVDLYHTSMKKYFEYANEVNMDNCRRFIKMLEEEKFAPAT
+                     IRLRITAIERFSKYIKKPLELKRPKMKRKLDTNNVPTEDEYNRLLEYLKTKSNKDYYF
+                     FIRVLGTTGARLSEFQQFTWEDIISGEVTLKGKGNKYRRFFFQRQLQQEVKAYAKEYG
+                     KTGLLAVGRFGPMTQRGLSQGMKDWGNCCGIDKKKMHPHAFRHFFAKMFLKKNKDVIQ
+                     LADLLGHGSVDTTRIYLQKSYDEQKRDFNKNVTW"
+     CDS             1889..2881
+                     /locus_tag="MR1_04035"
+                     /old_locus_tag="L01_04397"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MTNKKETLIKTLRGSVEQLNRLEDMMDGLTVMDETDHVDNDFLM
+                     EMLTCVNAFMDASNKVISKVSSLLAPDAPMDKKGKQSDEGKKWSVEEILKHCTLENNI
+                     LKLPQVQFNKKSYAEAKKWIEEAGGSWQGGKVQGFTFPFNAERVFSILKDGKRCNLQQ
+                     EYQFFETPDGVADWLVMLAGGIHEDDTVLEPSAGRGALIKAIHRACPSVMVECYELMP
+                     ENREFLHSLGNVILLGEDFAKDSVGSYGKIIANPPFANNQDIDHVRLMYERLEEGGTL
+                     AAITSPHWKFASEKKCAAFRQWIDEVHGQVFEIGAGEFKESGTSISTMAIVIKK"
+ORIGIN      
+        1 tatttgccag tggcatcctt cgagatattc agcgggagaa taaccttcaa tactaaataa
+       61 atatgaacag aatacaggaa ttagaagctg aaatacagcg tataaagaaa gaagaagctg
+      121 ataaaaagaa agcattgtat cagcattttg ttggtaagta tgtgcataga gcgcacactt
+      181 cgtatgaaaa gattatcggc atagatcgta ttgatacaga cgaatttggc gacgaagtgg
+      241 tatttgatag tattcatgta tattacgata atagaggaga tgaatacaat aatgatgcaa
+      301 gtatcaattt gcaaggctgg gggcaagcct atgccgaaga acttgaaaaa caactaatat
+      361 ctcctgaaac tttcaataaa gcactgaatg attgcattga tttaataaga cgaagattag
+      421 cgtaaaaccg aatagaaatg agcgaacttt atatacctgt tgaacgccct acgaggaatc
+      481 ccataaacgg tagatttttg aaaggcattg ctcctcacaa taaaggtaaa acaatgaagt
+      541 atcattccct aaagaccaaa cgtagaagtc tgaaaaattt agccaaagga cgcggttcct
+      601 ggcataaaac aggtgcaggt ctaaatcgta aaagtgtagt tgccattaaa gacggaaagt
+      661 tatgcggcgt attcccttcc attcaggatg cagggaaagc gacaggtgtt aatccggctc
+      721 tgatcagctg tatctgcaat aaaaagccgg gcaggcataa agcgggtggt tttgaatggt
+      781 tctttgaaaa tgatgctacc tggtgtgatt taatacttaa aaacgatgga taataacaga
+      841 cagcatatac tgactaatta tatttcttac ctgtatacca caggtagaag ttatgatagt
+      901 attggcaagc atatcaagta tgtagcggat ttccttgaga gcactgaaga ggtcaaccgt
+      961 cgcggctatt tgagttataa gcgtaaaaac gctgatgtca tggcgcgata tccattaatg
+     1021 tgttcagcca tttgcgatct gttgtcttat cttaaaatcg gatatggccg cagggaaaag
+     1081 acggtaaagc cattggagaa acttgactcc atttcagaga agaacaagaa gatgttgaat
+     1141 gattttatag tatggctgac tgataataat gattattccc cgcatacggt tgatttatat
+     1201 catacctcta tgaagaaata cttcgaatat gcgaatgagg taaatatgga taattgcagg
+     1261 agattcataa agatgcttga ggaggaaaaa ttcgctcccg ctactatccg gttacggatt
+     1321 acggccatcg aaagattttc caagtacata aagaaacctc tcgagctcaa gcgtcccaag
+     1381 atgaagcgta agctggacac aaataatgtt cctacagagg acgaatataa ccgtttactg
+     1441 gaatacttga agactaaatc caacaaagat tattactttt ttatcagggt tttaggtaca
+     1501 accggtgccc gtctgtcgga gtttcagcaa ttcacctggg aggacatcat atccggggaa
+     1561 gtgacattaa aagggaaggg taacaagtac cgtcgctttt tctttcaaag acagctacag
+     1621 caggaagtga aggcttatgc gaaagaatac ggtaagaccg ggcttcttgc ggttggcaga
+     1681 tttggtccca tgacacaacg tggactgtct cagggcatga aggattgggg caattgctgc
+     1741 ggcattgaca agaagaagat gcacccgcat gctttccgtc acttcttcgc gaagatgttt
+     1801 cttaagaaaa acaaggatgt gattcagctg gctgatcttt taggtcatgg cagcgtagac
+     1861 acaacaagaa tttatttaca aaaaagttat gacgaacaaa aaagagactt taataaaaac
+     1921 gttacgtggt agtgttgagc agttgaacag actggaggac atgatggacg gattgactgt
+     1981 tatggacgaa acggaccacg tagataacga ttttcttatg gaaatgctta cctgcgtcaa
+     2041 cgcatttatg gacgcgagca ataaggttat atcaaaggtg tcatcattgc tcgcccccga
+     2101 tgctcccatg gacaaaaaag gaaaacaatc cgatgaaggt aagaaatgga gtgtggaaga
+     2161 gatattgaag cattgcacgc ttgagaataa catcctcaag cttccacaag tgcaatttaa
+     2221 taagaaatct tatgccgaag ccaaaaagtg gatagaggaa gcgggcggtt cctggcaagg
+     2281 cgggaaagtg cagggcttta cattcccgtt taatgccgag cgcgtcttct ctatcctcaa
+     2341 agatgggaag cgctgtaatc tccaacagga atatcagttc tttgaaactc cggatggtgt
+     2401 tgcagactgg ttggtaatgc ttgccggagg gatacatgaa gatgatacgg tgttagagcc
+     2461 gagtgccggt cgtggtgcgc ttatcaaggc tattcatcgg gcatgtcctt ccgttatggt
+     2521 tgaatgttat gaactgatgc ctgaaaacag ggagtttctg cattcgctgg gcaatgtaat
+     2581 actacttggg gaagattttg cgaaagatag tgtgggcagc tatggcaaga taattgccaa
+     2641 tcctccattc gcaaacaatc aggacataga tcatgtaagg cttatgtatg aacggctcga
+     2701 agaaggtggc acgcttgcag ccattaccag tccacattgg aaatttgctt ctgaaaagaa
+     2761 gtgtgctgct ttccgccaat ggattgatga agtacacggg caagtatttg aaattggcgc
+     2821 aggtgagttt aaagagagcg gaacaagtat aagtacaatg gcaatagtta taaagaaata
+     2881 attcaaatta gaatagaagg aaggaaaacc tatgtttaaa gatataatcg aattagacaa
+     2941 acaagtcgta gaccggatcg tagataaggt ccacgaaaac aatttagaaa ttg
+//
