@@ -11,12 +11,12 @@ coverage.mat:
 meta_coverage.mat:
 
 
-Option 1: reproduce figures from pre-processed data
+# Option 1: reproduce figures from pre-processed data
 1. Download all files in the subject_preprocessed folder. Folders L01-L12 contains candidate_mutation_table.mat and coverages.mat that can be used to generate SNP list and other useful files for downstream analysis. Folder All_lineages contains pre-processed data for generating phylogeny of all 602 isolates. Folders S01_metagenome and S02_metagenome contain pre-processed data for generating Muller plot.
 2. Run the MATLAB script generate_intermediary_files.m.
 3. Run the MATLAB script All_figures_from_intermediary_files.m, this script generates all the figures presented in the paper. Individual functions used in this script are in the scripts_generating_figures folder.
 4. Due to space limit, the pre-processed files will be available at the dropbox link: https://www.dropbox.com/sh/y55tridlrd6m53t/AACzzq1lXHX9qlwsQqUtoaMea?dl=0
 
 
-Option 2: generate pre-processed files
+# Option 2: generate pre-processed files
 The scripts for generating pre-processed files for each subject is in the first_phase_analysis folder. However, since this phase of analysis is highly customized to our computational infrastructure, it is recommended that you customize these script to build your own pipeline for the first phase analysis. If you want to re-generated the pre-processed files on your own, you can download the raw sequencing data from the SRA (BioProject: XXXX). More details of how to generate the pre-processed files can be found from Tami Lieberman’s github project: https://github.com/tamilieberman/TB-diversity-across-organs.
